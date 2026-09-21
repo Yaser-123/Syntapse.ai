@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  memgraph:
+    image: memgraph/memgraph-platform:latest
+    ports:
+      - "7687:7687"
+      - "3000:3000"
+      - "7444:7444"
+    environment:
+      - MEMGRAPH_PORT=7687
+    volumes:
+      - memgraph-data:/var/lib/memgraph
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+volumes:
+  memgraph-data:
+  redis-data:

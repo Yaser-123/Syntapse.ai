@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+cognee
+redis
+litellm
+pydantic
+python-dotenv
+websockets
+google-generativeai
