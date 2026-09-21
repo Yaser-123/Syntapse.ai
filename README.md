@@ -15,7 +15,7 @@
 ---
 
 🎨 **Landing Page**
-https://v0.app/yaser-123/chat/update-website-text-j8ONOFHwuAt
+https://syntapse.vercel.app/
 
 ---
 
